@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.cdt.core.lrparser.feature"
+      label="%featureName"
+      version="9.6.0.201811241055"
+      provider-name="%providerName"
+      plugin="org.eclipse.cdt.core.lrparser">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="net.sourceforge.lpg.lpgjavaruntime"
+         download-size="90"
+         install-size="177"
+         version="1.1.0.v201004271650"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.cdt.core.lrparser"
+         download-size="1352"
+         install-size="2771"
+         version="5.2.1.201811241055"
+         unpack="false"/>
+
+</feature>
